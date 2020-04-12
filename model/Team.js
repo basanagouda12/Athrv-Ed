@@ -1,4 +1,4 @@
-const pool = require('../utils/db-config1');
+const pool = require('../utils/db-config2');
 module.exports.teamMembers = async (req, res, activities) => {
 	let returnActivities = [];
 	for (let activity of activities) {

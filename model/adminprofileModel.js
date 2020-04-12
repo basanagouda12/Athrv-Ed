@@ -1,4 +1,4 @@
-const pool =require('../utils/db-config1');
+const pool =require('../utils/db-config2');
 const parser=require('body-parser');
 console.log('inside admin profile');
 

@@ -1,5 +1,5 @@
 
-const pool = require("../../utils/db-config1");
+const pool = require("../../utils/db-config2");
 const taskInsertion = require('../TaskModel/taskInsert').taskInsertion
 const TaskMongo=require('../TaskModel/taskInsert')
 

@@ -1,5 +1,5 @@
 const Task=require('../Schema/taskSchema')
-const pool = require("../../utils/db-config1");
+const pool = require("../../utils/db-config2");
 const TaskupdateMongo = require('../TaskModel/taskUpdate')
 
 module.exports.UpdateTask = async (req, res) => {

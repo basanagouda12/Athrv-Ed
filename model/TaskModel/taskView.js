@@ -1,5 +1,5 @@
 const Task=require('../Schema/taskSchema')
-const pool = require("../../utils/db-config1");
+const pool = require("../../utils/db-config2");
 const TaskViewMongo = require('../TaskModel/taskView')
 
 //This is to get all the task for a given activity id , ie give the whole team reports 

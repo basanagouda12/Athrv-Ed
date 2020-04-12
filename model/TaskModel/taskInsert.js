@@ -7,7 +7,7 @@ Task: insert information into task along with start date ,end date and status
 const TaskMongo = require("../TaskModel/taskInsert");
 
 // you forgot to import the below pool varsha!
-const pool = require("../../utils/db-config1");
+const pool = require("../../utils/db-config2");
 const Calendar = require("../CalenderModel/insertCalendar");
 //ASync Function to insert task
 

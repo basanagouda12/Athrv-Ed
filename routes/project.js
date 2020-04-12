@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../Auth/auth');
-const dbconfig = require('../utils/db-config1');
+const dbconfig = require('../utils/db-config2');
 function genrator(ele) {
 	return {
 		milestone: ele.milestone,

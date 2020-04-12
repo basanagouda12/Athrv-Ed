@@ -1,4 +1,4 @@
-const pool = require('../utils/db-config1');
+const pool = require('../utils/db-config2');
 console.log('inside update profile');
 async function userdetails(req, res) {
 	let {

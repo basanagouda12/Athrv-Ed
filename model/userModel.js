@@ -1,5 +1,5 @@
 //Check if the user already exisits or not
-const pool = require('../utils/db-config1');
+const pool = require('../utils/db-config2');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 console.log('inside user model');

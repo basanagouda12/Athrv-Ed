@@ -1,4 +1,4 @@
-const pool = require('../utils/db-config1');
+const pool = require('../utils/db-config2');
 
 module.exports.getAll = async (req, res) => {
 	const AllProfiles = await pool.query(

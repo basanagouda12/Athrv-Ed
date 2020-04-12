@@ -8,7 +8,7 @@ const ValidCred = require('../utils/ValidateForm');
 const emailModel = require('../model/emailModel');
 const userModel = require('../model/userModel');
 const profileModel = require('../model/profileModel');
-const pool = require('../utils/db-config1');
+const pool = require('../utils/db-config2');
 const reportModel = require('../model/reportModel');
 
 //Regex based checking for the email

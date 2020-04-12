@@ -1,4 +1,4 @@
-const pool = require("../utils/db-config1");
+const pool = require("../utils/db-config2");
 const team = require("./Team");
 const TaskMongo=require('./TaskModel/taskInsert')
 const TaskViewMongo = require('./TaskModel/taskView')
